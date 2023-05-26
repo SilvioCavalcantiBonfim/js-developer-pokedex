@@ -5,7 +5,7 @@ Este é um projeto de desafio desenvolvido como parte do programa de treinamento
 
  A Pokédex possui as seguintes funcionalidades:
 
- - [X] Exibição de Pokémon: A aplicação permite visualizar informações detalhadas sobre Pokémon, como nome, imagem, tipo, habilidades e estatísticas.
+ - [X] Exibição de Pokémon: A aplicação permite visualizar informações detalhadas sobre Pokémon, como nome, imagem, tipo e estatísticas.
 
 ## Tecnologias Utilizadas
 
