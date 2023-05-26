@@ -28,6 +28,15 @@ function convertPokemonToLi(pokemon) {
                 </ol>
                 <img src="${pokemon.photo}" alt="${pokemon.name}">
             </div>
+
+            <div class="stats">
+                ${pokemon.stats.map((e) => {
+                    return `<div 
+                    class="bar" 
+                    title="${e.name}: ${e.base_stat}"
+                    style="background: linear-gradient(90deg, ${e.color} ${e.base_stat}%, white ${e.base_stat}%);"><span>${e.name}: ${e.base_stat}</span></div>`
+                }).join('')}
+            </div>
         </li>
     `
 }
